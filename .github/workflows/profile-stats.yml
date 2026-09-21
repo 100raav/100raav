@@ -28,7 +28,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh api user > /tmp/user.json
+          gh api users/100raav > /tmp/user.json
           gh api "users/100raav/repos?per_page=100" > /tmp/repos.json
           gh api graphql -f query='
             query { user(login: "100raav") { followers { totalCount } createdAt
