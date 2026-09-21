@@ -1,0 +1,54 @@
+name: Refresh real-time profile data
+
+on:
+  push:
+    paths:
+      - 'tools/**'
+      - 'assets/**'
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Pull real data from the GitHub API
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api user > /tmp/user.json
+          gh api "users/100raav/repos?per_page=100" > /tmp/repos.json
+          gh api graphql -f query='
+            query { user(login: "100raav") { followers { totalCount } createdAt
+              repositories(first: 100, ownerAffiliations: OWNER) { totalCount }
+              contributionsCollection { totalCommitContributions
+                contributionCalendar { totalContributions
+                  weeks { contributionDays { date contributionCount } } } } } }' > /tmp/gh_contrib.json
+          echo "data pulled"
+
+      - name: Regenerate assets from live data
+        run: |
+          DATA_DIR=/tmp node tools/gen-assets.mjs
+          DATA_DIR=/tmp OUT_DIR=assets node tools/gen-stats.mjs
+          DATA_DIR=/tmp node tools/gen-langs.mjs > assets/languages.svg
+          echo "assets regenerated"
+
+      - name: Commit updated visuals
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(profile): refresh real-time activity visuals'
+          commit_user_name: 'Saurav Bichha'
+          commit_user_email: '100raav73@gmail.com'
+          commit_options: '--no-verify'

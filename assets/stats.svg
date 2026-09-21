@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="864" height="200" viewBox="0 0 864 200" role="img" aria-label="Live GitHub analytics — 28 public repositories, 80 contributions last 12 months">
+  <rect width="864" height="200" rx="16" fill="#0d1428" stroke="#1b2740"/>
+  <circle cx="26" cy="22" r="5" fill="#22ee6a"><animate attributeName="fill-opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <text x="40" y="26" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Live analytics — real numbers from the GitHub API</text>
+  <text x="848" y="26" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="9.5" fill="#5b6d90">★ 1 star total · refreshed hourly by CI</text>
+  <g>
+    <rect x="24" y="48" width="264" height="70" rx="12" fill="#0d1428" stroke="#1b2740"/>
+    <rect x="24" y="48" width="264" height="2" rx="1" fill="#22d3ee" opacity="0.9"><animate attributeName="width" values="40;264;40" dur="5s" begin="0s" repeatCount="indefinite"/></rect>
+    <g transform="translate(50 83)">
+      <circle r="16" fill="#0a0f1e" stroke="#233150"/>
+      <text x="0" y="6" text-anchor="middle" font-size="14">⌘</text>
+      <circle r="20" fill="#22d3ee" opacity="0.16"><animate attributeName="r" values="16;22;16" dur="2.6s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.6s" begin="0s" repeatCount="indefinite"/></circle>
+    </g>
+    <text x="80" y="78" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.00s" fill="freeze"/>
+    </text>
+    <text x="80" y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff">28<tspan fill="#67e8f9" font-size="13" font-weight="700"> +</tspan></text>
+    <text x="80" y="91" font-family="'Segoe UI',Arial,sans-serif" font-size="10" letter-spacing="1" fill="#8ea3c9">PUBLIC REPOSITORIES</text>
+    <text x="80" y="105" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">all shipped in the open</text>
+  </g>
+<g>
+    <rect x="300" y="48" width="264" height="70" rx="12" fill="#0d1428" stroke="#1b2740"/>
+    <rect x="300" y="48" width="264" height="2" rx="1" fill="#22d3ee" opacity="0.9"><animate attributeName="width" values="40;264;40" dur="5s" begin="0.2s" repeatCount="indefinite"/></rect>
+    <g transform="translate(326 83)">
+      <circle r="16" fill="#0a0f1e" stroke="#233150"/>
+      <text x="0" y="6" text-anchor="middle" font-size="14">📈</text>
+      <circle r="20" fill="#22d3ee" opacity="0.16"><animate attributeName="r" values="16;22;16" dur="2.6s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.6s" begin="0.3s" repeatCount="indefinite"/></circle>
+    </g>
+    <text x="356" y="78" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.12s" fill="freeze"/>
+    </text>
+    <text x="356" y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff">80<tspan fill="#67e8f9" font-size="13" font-weight="700"> </tspan></text>
+    <text x="356" y="91" font-family="'Segoe UI',Arial,sans-serif" font-size="10" letter-spacing="1" fill="#8ea3c9">12-MONTH CONTRIBUTIONS</text>
+    <text x="356" y="105" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">refreshed every hour</text>
+  </g>
+<g>
+    <rect x="576" y="48" width="264" height="70" rx="12" fill="#0d1428" stroke="#1b2740"/>
+    <rect x="576" y="48" width="264" height="2" rx="1" fill="#22d3ee" opacity="0.9"><animate attributeName="width" values="40;264;40" dur="5s" begin="0.4s" repeatCount="indefinite"/></rect>
+    <g transform="translate(602 83)">
+      <circle r="16" fill="#0a0f1e" stroke="#233150"/>
+      <text x="0" y="6" text-anchor="middle" font-size="14">🖥</text>
+      <circle r="20" fill="#22d3ee" opacity="0.16"><animate attributeName="r" values="16;22;16" dur="2.6s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.6s" begin="0.6s" repeatCount="indefinite"/></circle>
+    </g>
+    <text x="632" y="78" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.24s" fill="freeze"/>
+    </text>
+    <text x="632" y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff">60<tspan fill="#67e8f9" font-size="13" font-weight="700"> </tspan></text>
+    <text x="632" y="91" font-family="'Segoe UI',Arial,sans-serif" font-size="10" letter-spacing="1" fill="#8ea3c9">COMMITS / LAST 12 MO</text>
+    <text x="632" y="105" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">measured from live API</text>
+  </g>
+<g>
+    <rect x="24" y="130" width="264" height="70" rx="12" fill="#0d1428" stroke="#1b2740"/>
+    <rect x="24" y="130" width="264" height="2" rx="1" fill="#22d3ee" opacity="0.9"><animate attributeName="width" values="40;264;40" dur="5s" begin="0.6000000000000001s" repeatCount="indefinite"/></rect>
+    <g transform="translate(50 165)">
+      <circle r="16" fill="#0a0f1e" stroke="#233150"/>
+      <text x="0" y="6" text-anchor="middle" font-size="14">📅</text>
+      <circle r="20" fill="#22d3ee" opacity="0.16"><animate attributeName="r" values="16;22;16" dur="2.6s" begin="0.8999999999999999s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.6s" begin="0.8999999999999999s" repeatCount="indefinite"/></circle>
+    </g>
+    <text x="80" y="160" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.36s" fill="freeze"/>
+    </text>
+    <text x="80" y="156" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff">22<tspan fill="#67e8f9" font-size="13" font-weight="700"> </tspan></text>
+    <text x="80" y="173" font-family="'Segoe UI',Arial,sans-serif" font-size="10" letter-spacing="1" fill="#8ea3c9">ACTIVE DAYS / 12 MO</text>
+    <text x="80" y="187" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">days with commits counted</text>
+  </g>
+<g>
+    <rect x="300" y="130" width="264" height="70" rx="12" fill="#0d1428" stroke="#1b2740"/>
+    <rect x="300" y="130" width="264" height="2" rx="1" fill="#22d3ee" opacity="0.9"><animate attributeName="width" values="40;264;40" dur="5s" begin="0.8s" repeatCount="indefinite"/></rect>
+    <g transform="translate(326 165)">
+      <circle r="16" fill="#0a0f1e" stroke="#233150"/>
+      <text x="0" y="6" text-anchor="middle" font-size="14">🔥</text>
+      <circle r="20" fill="#22d3ee" opacity="0.16"><animate attributeName="r" values="16;22;16" dur="2.6s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.6s" begin="1.2s" repeatCount="indefinite"/></circle>
+    </g>
+    <text x="356" y="160" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.48s" fill="freeze"/>
+    </text>
+    <text x="356" y="156" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff">3<tspan fill="#67e8f9" font-size="13" font-weight="700"> -DAY</tspan></text>
+    <text x="356" y="173" font-family="'Segoe UI',Arial,sans-serif" font-size="10" letter-spacing="1" fill="#8ea3c9">LONGEST STREAK</text>
+    <text x="356" y="187" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">consecutive-building days</text>
+  </g>
+<g>
+    <rect x="576" y="130" width="264" height="70" rx="12" fill="#0d1428" stroke="#1b2740"/>
+    <rect x="576" y="130" width="264" height="2" rx="1" fill="#22d3ee" opacity="0.9"><animate attributeName="width" values="40;264;40" dur="5s" begin="1s" repeatCount="indefinite"/></rect>
+    <g transform="translate(602 165)">
+      <circle r="16" fill="#0a0f1e" stroke="#233150"/>
+      <text x="0" y="6" text-anchor="middle" font-size="14">🚀</text>
+      <circle r="20" fill="#22d3ee" opacity="0.16"><animate attributeName="r" values="16;22;16" dur="2.6s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.6s" begin="1.5s" repeatCount="indefinite"/></circle>
+    </g>
+    <text x="632" y="160" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.60s" fill="freeze"/>
+    </text>
+    <text x="632" y="156" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff">3.2<tspan fill="#67e8f9" font-size="13" font-weight="700"> YRS</tspan></text>
+    <text x="632" y="173" font-family="'Segoe UI',Arial,sans-serif" font-size="10" letter-spacing="1" fill="#8ea3c9">BUILDING IN THE OPEN</text>
+    <text x="632" y="187" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">since July 2023</text>
+  </g>
+</svg>

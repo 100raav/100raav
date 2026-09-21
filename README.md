@@ -1,83 +1,143 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Saurav Bichha — Code Engineer & Systems Builder" width="100%" />
+<img src="assets/hero.svg" alt="Saurav Bichha — Code Engineer & Systems Builder" width="880" />
 
-<br />
+<br/>
+<br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=800&size=17&duration=2600&pause=1200&color=67E8F9&center=true&vCenter=true&width=640&lines=Computer+Science+engineer+who+ships+real%2C+verifiable+systems.;Java+%C2%B7+Spring+Boot+%C2%B7+React+%C2%B7+Node.js+%E2%80%94+26+public+projects.;Peer+reviewer+for+journals+indexed+in+Web+of+Science+(Clarivate).;Want+to+hire+or+collaborate%3F+Reach+out+%E2%80%94+I+reply." alt="Typing SVG" />
-
-<br />
+<img src="https://readme-typing-svg.demolab.com?font=Consolas&weight=800&size=17&duration=2600&pause=1200&color=67E8F9&center=true&vCenter=true&width=640&lines=Software+Engineer+%E2%80%94+Java%2C+Spring+Boot%2C+React%2C+Node.js.;28+public+projects%2C+all+real%2C+all+verifiable.;Peer+reviewer+for+journals+indexed+in+Web+of+Science.;Hire+me+or+collaborate+%E2%80%94+I+reply." alt="Typing SVG" />
 
 </div>
 
-## Who I am
+---
 
-Software engineer whose work is measured by what ships and stands up — never by demos or dashboards. Computer Science undergraduate at **Noida International University** (Greater Noida), building continuously since 2023:
-
-- **Web Development Intern — Oasis Infobyte** (2023): responsive, production-minded front-end work.
-- **Java Application Development Intern — CodeAlpha** (2024): banking application, real data handling, one of the most-watched repos in my open-source set.
-- **Peer reviewer — Clarivate/Web of Science journals** (2026): 6 completed journal reviews, verified and public on my [ORCID record](https://orcid.org/0009-0002-8578-2330).
-
-I read code across the stack, review other people's work against the same standards I hold my own, and I do not ship what I cannot prove.
-
-## What I am for
-
-I build the quiet tools that let people do the important work — a code-time machine, a repository X-ray, a calculator that respects precision, an interview room that works like a real one.
-
-## How I build
-
-Every project here follows one discipline: **ship → test → prove → document.** Verified workflows, automatic rollback, byte-accurate tests, and READMEs that tell you what the system actually does. 26 public projects, every one of them real, every one of them reproducible.
-
-## Featured projects
+<br/>
 
 <div align="center">
 
-<a href="https://github.com/100raav/chronovault"><img src="assets/projects/chronovault.svg" width="268" alt="chronovault" /></a>
-<a href="https://github.com/100raav/project-xray"><img src="assets/projects/project-xray.svg" width="268" alt="project-xray" /></a>
-<a href="https://github.com/100raav/compeng-calc"><img src="assets/projects/compeng-calc.svg" width="268" alt="compeng-calc" /></a>
+<sup>PROFILE</sup>
 
-<a href="https://github.com/100raav/talent-IQ"><img src="assets/projects/talent-iq.svg" width="268" alt="talent-IQ" /></a>
-<a href="https://github.com/100raav/BookStoreManagement"><img src="assets/projects/bookstore.svg" width="268" alt="BookStoreManagement" /></a>
-<a href="https://github.com/100raav/react-dev-tool-suite"><img src="assets/projects/react-dev-tool.svg" width="268" alt="react-dev-tool-suite" /></a>
+## Software Engineer — Java · Spring Boot · React · Node.js
 
-<br />
-
-[View all 26 public repositories](https://github.com/100raav?tab=repositories)
+Engineers **complete, verifiable systems** end-to-end and ships them in the open. Since 2023: **28 public repositories** — CLI developer tools, REST/ERP backends, data pipettes and full web applications — every one built, tested and documented like production software. Peer reviewer for journals indexed in **Web of Science** (Clarivate), verified on [ORCID](https://orcid.org/0009-0002-8578-2330). Computer Science, Noida International University (Greater Noida). Every number on this profile is **live data, refreshed hourly**.
 
 </div>
 
-## Real activity — this last 12 months
+<br/>
+
+---
+
+<br/>
+
+<h3 align="center">Selected projects — what they are, and what they are used for</h3>
+
+<br/>
 
 <div align="center">
 
-<img src="assets/contributions.svg" alt="Contribution calendar — real data, last 12 months" width="100%" />
+<a href="https://github.com/100raav/codemeetly-backend"><img src="assets/projects/codemeetly-backend.svg" width="264" alt="codemeetly-backend — API for the CodeMeetly collab platform" /></a>
+<a href="https://github.com/100raav/Blockchain-SImulation-Project"><img src="assets/projects/blockchain-simulation.svg" width="264" alt="Blockchain-SImulation-Project — Spring Boot REST ledger" /></a>
+<a href="https://github.com/100raav/erp-system"><img src="assets/projects/erp-system.svg" width="264" alt="erp-system — Spring Boot ERP backend" /></a>
 
-<br />
+<br/>
 
-<img src="assets/journey.svg" alt="Engineering journey, every public repo by year" width="100%" />
+<a href="https://github.com/100raav/project-xray"><img src="assets/projects/project-xray.svg" width="264" alt="project-xray — Java/Spring repo intelligence" /></a>
+<a href="https://github.com/100raav/chronovault"><img src="assets/projects/chronovault.svg" width="264" alt="chronovault — verified checkpoint CLI" /></a>
+<a href="https://github.com/100raav/compeng-calc"><img src="assets/projects/compeng-calc.svg" width="264" alt="compeng-calc — engineering calculator" /></a>
 
-<br />
+<br/>
 
-<img src="assets/languages.svg" alt="Most-used languages by real byte count" width="100%" />
-
-<br />
-
-<img src="https://github-readme-stats.vercel.app/api?username=100raav&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&hide_title=true" alt="GitHub stats" width="52%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=100raav&theme=tokyonight&hide_border=true" alt="GitHub streak" width="46%" />
+<a href="https://github.com/100raav?tab=repositories">View all 28 public repositories</a>
 
 </div>
 
-## The stack I actually build with
+<br/>
+
+---
+
+<br/>
+
+<h3 align="center">Live GitHub activity — real data, refreshed every hour by CI</h3>
+<br/><br/>
 
 <div align="center">
 
-[![Skills](https://skillicons.dev/icons?i=java,spring,javascript,react,typescript,nodejs,nextjs,vite,mysql,html5,css3,maven,gradle,git,github&theme=dark&perline=15)](https://skillicons.dev)
+<img src="assets/stats.svg" alt="Live analytics — real numbers from the GitHub API" width="826" />
 
-<sub>Everything on this profile — the contribution calendar, the language split, the journey — is measured from the live GitHub API. No fabricated numbers, no sample data.</sub>
+<br/>
+<br/>
+<br/>
+
+<img src="assets/contributions.svg" alt="Contribution calendar — real data, last 12 months" width="826" />
+
+<br/>
+<br/>
+<br/>
+
+<img src="assets/journey.svg" alt="Engineering journey — every public repo by year" width="782" />
+
+<br/>
+<br/>
+<br/>
+
+<img src="assets/languages.svg" alt="Most-used languages by real byte count" width="782" />
 
 </div>
 
-## Contact
+<br/>
+
+---
+
+<br/>
+
+<h3 align="center">Core technologies — the stack I build with</h3>
+
+<br/>
+
+<div align="center">
+
+<table>
+  <tr>
+    <td width="150" align="center"><img src="https://skillicons.dev/icons?i=java" width="36" title="Java" /><br/><sub>Java</sub></td>
+    <td width="150" align="center"><img src="https://skillicons.dev/icons?i=spring" width="36" title="Spring / Spring Boot" /><br/><sub>Spring Boot</sub></td>
+    <td width="150" align="center"><img src="https://skillicons.dev/icons?i=javascript" width="36" title="JavaScript" /><br/><sub>JavaScript</sub></td>
+    <td width="150" align="center"><img src="https://skillicons.dev/icons?i=react" width="36" title="React" /><br/><sub>React</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=typescript" width="36" title="TypeScript" /><br/><sub>TypeScript</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nodejs" width="36" title="Node.js" /><br/><sub>Node.js</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=nextjs" width="36" title="Next.js" /><br/><sub>Next.js</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=vite" width="36" title="Vite" /><br/><sub>Vite</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=mysql" width="36" title="MySQL" /><br/><sub>MySQL</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=html5" width="36" title="HTML5" /><br/><sub>HTML5</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=css3" width="36" title="CSS3" /><br/><sub>CSS3</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=maven" width="36" title="Maven" /><br/><sub>Maven</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://skillicons.dev/icons?i=gradle" width="36" title="Gradle" /><br/><sub>Gradle</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=git" width="36" title="Git" /><br/><sub>Git</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=github" width="36" title="GitHub" /><br/><sub>GitHub</sub></td>
+    <td align="center"><img src="https://skillicons.dev/icons?i=vercel" width="36" title="Vercel" /><br/><sub>Vercel</sub></td>
+  </tr>
+</table>
+
+<br/>
+
+<sub>Hover any icon to see its name. Contribution calendar, language split, streak and totals above are computed from the live GitHub API — no fabricated numbers, no sample data.</sub>
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+<h3 align="center">Contact</h3>
+
+<br/>
 
 <div align="center">
 
