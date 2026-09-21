@@ -3,7 +3,7 @@ import { mkdirSync, writeFileSync } from 'node:fs'
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 
 const NODES = [
-  { years: '2015 – 2019', title: 'Secondary Education · SEE', org: 'Model Multiple College', meta: 'Grade X · Mathematics & Science', grade: '3.65 / 4.0' },
+  { years: '2015 – 2019', title: 'Secondary Education · SEE', org: 'Sinha Public School', meta: 'Grade X · Mathematics & Science', grade: '3.65 / 4.0' },
   { years: '2020 – 2022', title: 'Senior Secondary · Science', org: 'Model Multiple College', meta: 'Grade XII · Physical Sciences', grade: '3.08 / 4.0' },
   { years: '2022 – 2026', title: 'B.Tech · Computer Science & Engineering', org: 'Noida International University', meta: 'Greater Noida · Delhi NCR', grade: 'CGPA 7.62' },
 ]
