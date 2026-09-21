@@ -51,7 +51,7 @@
 
 <div align="center">
 
-<img src="assets/education.svg" alt="Education — secondary school, senior secondary, and B.Tech, real records" width="900" />
+<img src="assets/education.svg?v=2" alt="Education — secondary school, senior secondary, and B.Tech, real records" width="900" />
 
 </div>
 
