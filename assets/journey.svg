@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="764" height="220" viewBox="0 0 764 220" role="img" aria-label="Saurav Bichha engineering journey by year">
+  <rect width="764" height="220" rx="16" fill="#0d1428" stroke="#1b2740"/>
+  <text x="22" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Engineering journey — every public repo, by the year it was built</text>
+  <rect x="20" y="40" width="3" height="156" rx="1.5" fill="#1b2740"/>
+  <circle cx="21.5" cy="40" r="4" fill="#f472b6"><animate attributeName="cy" values="40;142;40" dur="8s" repeatCount="indefinite"/></circle>
+  <circle cx="22" cy="60" r="5" fill="#0d1428" stroke="#22d3ee" stroke-width="2"/>
+      <rect x="46" y="51" width="74" height="18" rx="9" fill="#0d1428" stroke="#1b2740"/>
+      <text x="83" y="64" text-anchor="middle" font-family="'Consolas',monospace" font-size="11" font-weight="700" fill="#22d3ee">2023</text>
+      <text x="136" y="64" font-family="'Segoe UI',Arial,sans-serif" font-size="10.5" fill="#5b6d90">3 repos</text>
+      <text x="196" y="64" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#aebfd9">OIBSIP1 · OIBSIP2 · OIBSIP</text><circle cx="22" cy="94" r="5" fill="#0d1428" stroke="#22d3ee" stroke-width="2"/>
+      <rect x="46" y="85" width="74" height="18" rx="9" fill="#0d1428" stroke="#1b2740"/>
+      <text x="83" y="98" text-anchor="middle" font-family="'Consolas',monospace" font-size="11" font-weight="700" fill="#22d3ee">2024</text>
+      <text x="136" y="98" font-family="'Segoe UI',Arial,sans-serif" font-size="10.5" fill="#5b6d90">3 repos</text>
+      <text x="196" y="98" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#aebfd9">Hospital-Management-System · Codealpha_Simple_Banking_Application · 100raav</text><circle cx="22" cy="128" r="5" fill="#0d1428" stroke="#22d3ee" stroke-width="2"/>
+      <rect x="46" y="119" width="74" height="18" rx="9" fill="#0d1428" stroke="#1b2740"/>
+      <text x="83" y="132" text-anchor="middle" font-family="'Consolas',monospace" font-size="11" font-weight="700" fill="#22d3ee">2025</text>
+      <text x="136" y="132" font-family="'Segoe UI',Arial,sans-serif" font-size="10.5" fill="#5b6d90">4 repos</text>
+      <text x="196" y="132" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#aebfd9">ShutterReach-Site · Audio-to-text · speech-to-text-transcriber (+1 more)</text><circle cx="22" cy="162" r="5" fill="#0d1428" stroke="#22d3ee" stroke-width="2"/>
+      <rect x="46" y="153" width="74" height="18" rx="9" fill="#0d1428" stroke="#1b2740"/>
+      <text x="83" y="166" text-anchor="middle" font-family="'Consolas',monospace" font-size="11" font-weight="700" fill="#22d3ee">2026</text>
+      <text x="136" y="166" font-family="'Segoe UI',Arial,sans-serif" font-size="10.5" fill="#5b6d90">16 repos</text>
+      <text x="196" y="166" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#aebfd9">chronovault · compeng-calc · project-xray (+13 more)</text>
+</svg>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-label="Saurav Bichha — Full-Stack Platform Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-label="Saurav Bichha — Code Engineer &amp; Systems Builder">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#0a1020"/>
@@ -17,7 +17,6 @@
       <stop offset="0" stop-color="#22d3ee"/>
       <stop offset="0.5" stop-color="#a78bfa"/>
       <stop offset="1" stop-color="#f472b6"/>
-      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="0.6 0" dur="6s" repeatCount="indefinite"/>
     </linearGradient>
     <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#22d3ee"/>
@@ -82,44 +81,45 @@
   </g>
 
   <!-- identity -->
-  <text x="278" y="120" font-family="'Segoe UI', 'SF Pro Display', Arial, sans-serif" font-size="19" letter-spacing="6" fill="#67e8f9" opacity="0.95">
+  <text x="278" y="118" font-family="'Segoe UI', 'SF Pro Display', Arial, sans-serif" font-size="19" letter-spacing="6" fill="#67e8f9" opacity="0.95">
     <tspan>SAURAV BICHHA</tspan>
-    <animate attributeName="letter-spacing" values="6;9;6" dur="5s" repeatCount="indefinite"/>
   </text>
-  <text x="278" y="172" font-family="'Segoe UI', 'SF Pro Display', Arial, sans-serif" font-size="52" font-weight="800" fill="url(#titleGrad)" filter="url(#glowText)">
+  <text x="278" y="166" font-family="'Segoe UI', 'SF Pro Display', Arial, sans-serif" font-size="40" font-weight="800" fill="url(#titleGrad)" filter="url(#glowText)">
     Code Engineer &amp; Systems Builder
   </text>
-  <text x="278" y="212" font-family="'Verdana', 'Segoe UI', Arial, sans-serif" font-size="15" letter-spacing="3" fill="#8ea3c9">
+  <text x="278" y="206" font-family="'Verdana', 'Segoe UI', Arial, sans-serif" font-size="14" letter-spacing="3" fill="#8ea3c9">
     FULL-STACK  ·  JAVA  ·  SPRING  ·  REACT  ·  CLOUD-GRADE SYSTEMS
   </text>
 
   <!-- accent line under -->
-  <rect x="276" y="230" width="400" height="3" rx="1.5" fill="url(#ringGrad)">
-    <animate attributeName="width" values="120;400;120" dur="6s" repeatCount="indefinite"/>
+  <rect x="278" y="224" width="430" height="3" rx="1.5" fill="url(#ringGrad)">
+    <animate attributeName="width" values="120;430;120" dur="6s" repeatCount="indefinite"/>
   </rect>
-  <circle cx="276" cy="231.5" r="3" fill="#f472b6">
-    <animate attributeName="cx" values="276;676;276" dur="6s" repeatCount="indefinite"/>
+  <circle cx="278" cy="225.5" r="3" fill="#f472b6">
+    <animate attributeName="cx" values="278;708;278" dur="6s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- right stat badges -->
+  <!-- real stat chips (bottom bar) -->
   <g font-family="'Segoe UI', Arial, sans-serif">
     <g>
-      <rect x="790" y="118" width="150" height="40" rx="8" fill="#0d1428" stroke="#233150"/>
-      <text x="808" y="134" font-size="11" fill="#67e8f9" letter-spacing="1">BUILDING</text>
-      <text x="808" y="151" font-size="12" font-weight="700" fill="#ffffff">BLYVERO</text>
-      <animate attributeName="opacity" values="1;0.55;1" dur="4s" repeatCount="indefinite"/>
+      <rect x="148" y="244" width="158" height="34" rx="8" fill="#0d1428" stroke="#233150"/>
+      <text x="163" y="258" font-size="8.5" fill="#67e8f9" letter-spacing="1.5">PEER REVIEWER · CLARIVATE</text>
+      <text x="163" y="272" font-size="10.5" font-weight="700" fill="#ffffff">6 JOURNAL REVIEWS</text>
     </g>
     <g>
-      <rect x="790" y="168" width="150" height="40" rx="8" fill="#0d1428" stroke="#233150">
-        <animate attributeName="stroke-opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/>
-      </rect>
-      <text x="808" y="184" font-size="11" fill="#a78bfa" letter-spacing="1">VERIFIED</text>
-      <text x="808" y="201" font-size="12" font-weight="700" fill="#ffffff">89/89 SECURITY MATRIX</text>
+      <rect x="314" y="244" width="158" height="34" rx="8" fill="#0d1428" stroke="#233150"/>
+      <text x="329" y="258" font-size="8.5" fill="#a78bfa" letter-spacing="1.5">OPEN SOURCE</text>
+      <text x="329" y="272" font-size="10.5" font-weight="700" fill="#ffffff">26+ PUBLIC REPOS</text>
     </g>
     <g>
-      <rect x="790" y="218" width="150" height="40" rx="8" fill="#0d1428" stroke="#233150"/>
-      <text x="808" y="234" font-size="11" fill="#f472b6" letter-spacing="1">SHIPPED</text>
-      <text x="808" y="251" font-size="12" font-weight="700" fill="#ffffff">168+ AUTOMATED TESTS</text>
+      <rect x="480" y="244" width="158" height="34" rx="8" fill="#0d1428" stroke="#233150"/>
+      <text x="495" y="258" font-size="8.5" fill="#f472b6" letter-spacing="1.5">CORE STACK</text>
+      <text x="495" y="272" font-size="10" font-weight="700" fill="#ffffff">JAVA · SPRING · REACT</text>
+    </g>
+    <g>
+      <rect x="646" y="244" width="158" height="34" rx="8" fill="#0d1428" stroke="#233150"/>
+      <text x="661" y="258" font-size="8.5" fill="#67e8f9" letter-spacing="1.5">ENGINEERING</text>
+      <text x="661" y="272" font-size="10.5" font-weight="700" fill="#ffffff">SINCE 2023</text>
     </g>
   </g>
 </svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="764" height="278" viewBox="0 0 764 278" role="img" aria-label="Most used languages across public repositories, by bytes">
+  <rect width="764" height="278" rx="16" fill="#0d1428" stroke="#1b2740"/>
+  <text x="22" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Most-used languages — real bytes across every public repository</text>
+  <text x="22" y="48" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#5b6d90">Measured by bytes, read live from the GitHub API — no samples, no estimates</text>
+  <text x="24" y="89" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#aebfd9">HTML</text>
+  <rect x="110" y="74" width="560" height="22" rx="5" fill="#0a0f1e" stroke="#1b2740"/>
+  <rect x="110" y="74" width="197.67999999999998" height="22" rx="5" fill="#e34c26" opacity="0">
+    <animate attributeName="width" values="0;197.67999999999998" dur="0.9s" begin="0.00s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.00s" fill="freeze"/>
+  </rect>
+  <text x="684" y="89" text-anchor="end" font-family="'Consolas',monospace" font-size="11" font-weight="700" fill="#ffffff">35.3%</text>
+<text x="24" y="117" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#aebfd9">Java</text>
+  <rect x="110" y="102" width="560" height="22" rx="5" fill="#0a0f1e" stroke="#1b2740"/>
+  <rect x="110" y="102" width="126.56" height="22" rx="5" fill="#e76f00" opacity="0">
+    <animate attributeName="width" values="0;126.56" dur="0.9s" begin="0.12s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.12s" fill="freeze"/>
+  </rect>
+  <text x="684" y="117" text-anchor="end" font-family="'Consolas',monospace" font-size="11" font-weight="700" fill="#ffffff">22.6%</text>
+<text x="24" y="145" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#aebfd9">JavaScript</text>
+  <rect x="110" y="130" width="560" height="22" rx="5" fill="#0a0f1e" stroke="#1b2740"/>
+  <rect x="110" y="130" width="84.56" height="22" rx="5" fill="#f1e05a" opacity="0">
+    <animate attributeName="width" values="0;84.56" dur="0.9s" begin="0.24s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.24s" fill="freeze"/>
+  </rect>
+  <text x="684" y="145" text-anchor="end" font-family="'Consolas',monospace" font-size="11" font-weight="700" fill="#ffffff">15.1%</text>
+<text x="24" y="173" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#aebfd9">TypeScript</text>
+  <rect x="110" y="158" width="560" height="22" rx="5" fill="#0a0f1e" stroke="#1b2740"/>
+  <rect x="110" y="158" width="64.96" height="22" rx="5" fill="#3178c6" opacity="0">
+    <animate attributeName="width" values="0;64.96" dur="0.9s" begin="0.36s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.36s" fill="freeze"/>
+  </rect>
+  <text x="684" y="173" text-anchor="end" font-family="'Consolas',monospace" font-size="11" font-weight="700" fill="#ffffff">11.6%</text>
+<text x="24" y="201" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#aebfd9">CSS</text>
+  <rect x="110" y="186" width="560" height="22" rx="5" fill="#0a0f1e" stroke="#1b2740"/>
+  <rect x="110" y="186" width="54.88" height="22" rx="5" fill="#563d7c" opacity="0">
+    <animate attributeName="width" values="0;54.88" dur="0.9s" begin="0.48s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.48s" fill="freeze"/>
+  </rect>
+  <text x="684" y="201" text-anchor="end" font-family="'Consolas',monospace" font-size="11" font-weight="700" fill="#ffffff">9.8%</text>
+<text x="24" y="229" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#aebfd9">Python</text>
+  <rect x="110" y="214" width="560" height="22" rx="5" fill="#0a0f1e" stroke="#1b2740"/>
+  <rect x="110" y="214" width="25.759999999999998" height="22" rx="5" fill="#3572a5" opacity="0">
+    <animate attributeName="width" values="0;25.759999999999998" dur="0.9s" begin="0.60s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.60s" fill="freeze"/>
+  </rect>
+  <text x="684" y="229" text-anchor="end" font-family="'Consolas',monospace" font-size="11" font-weight="700" fill="#ffffff">4.6%</text>
+<text x="24" y="257" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#aebfd9">Shell</text>
+  <rect x="110" y="242" width="560" height="22" rx="5" fill="#0a0f1e" stroke="#1b2740"/>
+  <rect x="110" y="242" width="3.9199999999999995" height="22" rx="5" fill="#89e051" opacity="0">
+    <animate attributeName="width" values="0;3.9199999999999995" dur="0.9s" begin="0.72s" fill="freeze"/>
+    <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.72s" fill="freeze"/>
+  </rect>
+  <text x="684" y="257" text-anchor="end" font-family="'Consolas',monospace" font-size="11" font-weight="700" fill="#ffffff">0.7%</text>
+</svg>
