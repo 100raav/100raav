@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="216" viewBox="0 0 1080 216" role="img" aria-label="Real GitHub contribution calendar, last 12 months, 86 contributions">
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="216" viewBox="0 0 1080 216" role="img" aria-label="Real GitHub contribution calendar, last 12 months, 87 contributions">
   <defs>
     <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset="0.5" stop-color="#a78bfa" stop-opacity="1"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
@@ -13,7 +13,7 @@
   <circle cx="30" cy="26" r="6" fill="#22ee6a"><animate attributeName="fill-opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
   <text x="46" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#ffffff">Real GitHub contribution calendar</text>
   <text x="606" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#5b6d90">last 12 months · refreshed hourly by CI</text>
-  <text x="1070" y="31" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="20" font-weight="800" fill="#22d3ee">86</text>
+  <text x="1070" y="31" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="20" font-weight="800" fill="#22d3ee">87</text>
   <text x="1070" y="47" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#5b6d90">CONTRIBUTIONS</text>
   <text x="85" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">Sep</text><text x="161" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">Oct</text><text x="256" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">Nov</text><text x="332" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">Dec</text><text x="408" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">Jan</text><text x="484" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">Feb</text><text x="579" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">Mar</text><text x="655" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">Apr</text><text x="750" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">May</text><text x="826" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">Jun</text><text x="902" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">Jul</text><text x="997" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">Aug</text><text x="1054" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">Sep</text>
   <text x="42" y="66" font-family="'Consolas',monospace" font-size="10" fill="#5b6d90" text-anchor="end">MON</text><text x="42" y="104" font-family="'Consolas',monospace" font-size="10" fill="#5b6d90" text-anchor="end">WED</text><text x="42" y="142" font-family="'Consolas',monospace" font-size="10" fill="#5b6d90" text-anchor="end">FRI</text><text x="42" y="180" font-family="'Consolas',monospace" font-size="10" fill="#5b6d90" text-anchor="end">SUN</text>
@@ -730,8 +730,11 @@
         <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.609s" fill="freeze"/>
       </rect><rect x="1016" y="130" width="16" height="16" rx="4" fill="#22d3ee" fill-opacity="0.07" opacity="0">
         <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.612s" fill="freeze"/>
-      </rect><rect x="1016" y="149" width="16" height="16" rx="4" fill="#22d3ee" fill-opacity="0.56" opacity="0">
+      </rect><rect x="1016" y="149" width="16" height="16" rx="4" fill="#22d3ee" fill-opacity="0.84" opacity="0">
         <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.615s" fill="freeze"/>
+      </rect>
+      <rect x="1016" y="149" width="16" height="16" rx="4" fill="none" stroke="#f472b6" stroke-width="1.4" opacity="0">
+        <animate attributeName="opacity" values="0;0.9;0" dur="2.2s" begin="0.965s" repeatCount="indefinite"/>
       </rect><rect x="1016" y="168" width="16" height="16" rx="4" fill="#22d3ee" fill-opacity="1" opacity="0">
         <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.618s" fill="freeze"/>
       </rect>
@@ -753,7 +756,7 @@
         <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.630s" fill="freeze"/>
       </rect><rect x="1054" y="54" width="16" height="16" rx="4" fill="#22d3ee" fill-opacity="0.07" opacity="0">
         <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.624s" fill="freeze"/>
-      </rect><rect x="1054" y="73" width="16" height="16" rx="4" fill="#22d3ee" fill-opacity="0.84" opacity="0">
+      </rect><rect x="1054" y="73" width="16" height="16" rx="4" fill="#22d3ee" fill-opacity="1" opacity="0">
         <animate attributeName="opacity" values="0;1" dur="0.3s" begin="0.627s" fill="freeze"/>
       </rect>
       <rect x="1054" y="73" width="16" height="16" rx="4" fill="none" stroke="#f472b6" stroke-width="1.4" opacity="0">
