@@ -12,6 +12,7 @@
 ---
 
 <br/>
+<br/>
 
 <div align="center">
 
@@ -19,14 +20,38 @@
 
 ## Software Engineer — Java · Spring Boot · React · Node.js
 
-Engineers **complete, verifiable systems** end-to-end and ships them in the open. Since 2023: **28 public repositories** — CLI developer tools, REST/ERP backends, data pipettes and full web applications — every one built, tested and documented like production software. Peer reviewer for journals indexed in **Web of Science** (Clarivate), verified on [ORCID](https://orcid.org/0009-0002-8578-2330). Computer Science, Noida International University (Greater Noida). Every number on this profile is **live data, refreshed hourly**.
+Software engineer working across the full stack. I build complete systems end to end: CLI developer tools, REST and ERP backends, and full web applications — each built, tested and documented to production standard, and shipped in the open (**28 public repositories since 2023**).
+
+Beyond the code, I review academic work: **8 peer reviews** recorded on my [Web of Science](https://www.webofscience.com/wos/author/record/NOF-2861-2025) and [ORCID](https://orcid.org/0009-0002-8578-2330) profiles.
+
+B.Tech in **Computer Science & Engineering**, Noida International University, Greater Noida. Every figure on this profile is live data, refreshed hourly.
 
 </div>
 
 <br/>
+<br/>
 
 ---
 
+<br/>
+<br/>
+
+<h3 align="center">Education</h3>
+
+<br/>
+
+<div align="center">
+
+<img src="assets/education.svg" alt="Education — Noida International University" width="620" />
+
+</div>
+
+<br/>
+<br/>
+
+---
+
+<br/>
 <br/>
 
 <h3 align="center">Selected projects — what they are, and what they are used for</h3>
@@ -52,42 +77,55 @@ Engineers **complete, verifiable systems** end-to-end and ships them in the open
 </div>
 
 <br/>
+<br/>
 
 ---
 
 <br/>
+<br/>
 
-<h3 align="center">Live GitHub activity — real data, refreshed every hour by CI</h3>
-<br/><br/>
+<h3 align="center">Live GitHub activity — real data, refreshed hourly by CI</h3>
+
+<br/>
 
 <div align="center">
 
-<img src="assets/stats.svg" alt="Live analytics — real numbers from the GitHub API" width="826" />
+<sub>LIVE ANALYTICS</sub>
+<br/>
+<img src="assets/stats.svg" alt="Live analytics — real numbers from the GitHub API" width="790" />
 
 <br/>
 <br/>
 <br/>
 
-<img src="assets/contributions.svg" alt="Contribution calendar — real data, last 12 months" width="826" />
+<sub>CONTRIBUTION CALENDAR — LAST 12 MONTHS</sub>
+<br/>
+<img src="assets/contributions.svg" alt="Contribution calendar — real data, last 12 months" width="790" />
 
 <br/>
 <br/>
 <br/>
 
-<img src="assets/journey.svg" alt="Engineering journey — every public repo by year" width="782" />
+<sub>ENGINEERING JOURNEY — EVERY PUBLIC REPO BY YEAR</sub>
+<br/>
+<img src="assets/journey.svg" alt="Engineering journey — every public repo by year" width="748" />
 
 <br/>
 <br/>
 <br/>
 
-<img src="assets/languages.svg" alt="Most-used languages by real byte count" width="782" />
+<sub>MOST-USED LANGUAGES — REAL BYTE COUNT ACROSS ALL PUBLIC REPOS</sub>
+<br/>
+<img src="assets/languages.svg" alt="Most-used languages by real byte count" width="748" />
 
 </div>
 
 <br/>
+<br/>
 
 ---
 
+<br/>
 <br/>
 
 <h3 align="center">Core technologies — the stack I build with</h3>
@@ -111,8 +149,8 @@ Engineers **complete, verifiable systems** end-to-end and ships them in the open
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=mysql" width="36" title="MySQL" /><br/><sub>MySQL</sub></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=html5" width="36" title="HTML5" /><br/><sub>HTML5</sub></td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=css3" width="36" title="CSS3" /><br/><sub>CSS3</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/html5.svg" width="36" title="HTML5" /><br/><sub>HTML5</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/css3.svg" width="36" title="CSS3" /><br/><sub>CSS3</sub></td>
     <td align="center"><img src="https://skillicons.dev/icons?i=maven" width="36" title="Maven" /><br/><sub>Maven</sub></td>
   </tr>
   <tr>
@@ -125,14 +163,34 @@ Engineers **complete, verifiable systems** end-to-end and ships them in the open
 
 <br/>
 
-<sub>Hover any icon to see its name. Contribution calendar, language split, streak and totals above are computed from the live GitHub API — no fabricated numbers, no sample data.</sub>
+<sub>Contribution calendar, language split, streak and totals above are computed from the live GitHub API — no fabricated numbers, no sample data.</sub>
 
 </div>
 
 <br/>
+<br/>
 
 ---
 
+<br/>
+<br/>
+
+<h3 align="center">A techie joke — fresh on every visit</h3>
+
+<br/>
+
+<div align="center">
+
+<img src="https://readme-jokes.vercel.app/api" alt="Random developer joke" width="540" />
+
+</div>
+
+<br/>
+<br/>
+
+---
+
+<br/>
 <br/>
 
 <h3 align="center">Contact</h3>
@@ -141,8 +199,10 @@ Engineers **complete, verifiable systems** end-to-end and ships them in the open
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saurav-bixa)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saurav-bixa/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/100raav73/)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://www.geeksforgeeks.org/profile/100raav)
+[![Web of Science](https://img.shields.io/badge/Web_of_Science-0077B5?style=for-the-badge&labelColor=1b2740&logo=webofscience&logoColor=white)](https://www.webofscience.com/wos/author/record/NOF-2861-2025)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0009-0002-8578-2330)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/100raav)
 [![Email](https://img.shields.io/badge/Email-100raav73%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:100raav73@gmail.com)

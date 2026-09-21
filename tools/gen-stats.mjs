@@ -41,9 +41,6 @@ const cells = METRICS.map((m, i) => {
       <text x="0" y="6" text-anchor="middle" font-size="14">${m.glyph}</text>
       <circle r="20" fill="#22d3ee" opacity="0.16"><animate attributeName="r" values="16;22;16" dur="2.6s" begin="${i * 0.3}s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.6s" begin="${i * 0.3}s" repeatCount="indefinite"/></circle>
     </g>
-    <text x="${x + 56}" y="${y + 30}" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff" opacity="0">
-      <animate attributeName="opacity" values="0;1" dur="0.5s" begin="${(i * 0.12).toFixed(2)}s" fill="freeze"/>
-    </text>
     <text x="${x + 56}" y="${y + 26}" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff">${m.value}<tspan fill="#67e8f9" font-size="13" font-weight="700"> ${m.suffix}</tspan></text>
     <text x="${x + 56}" y="${y + 43}" font-family="'Segoe UI',Arial,sans-serif" font-size="10" letter-spacing="1" fill="#8ea3c9">${m.label}</text>
     <text x="${x + 56}" y="${y + 57}" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">${m.hint}</text>
