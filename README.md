@@ -16,6 +16,10 @@
 
 <div align="center">
 
+<img src="assets/avatar.svg" alt="Saurav Bichha — profile photo" width="150" />
+
+<br/>
+
 <sup>PROFILE</sup>
 
 ## Full-Stack Software Engineer — Java · Spring Boot · React · Node.js
