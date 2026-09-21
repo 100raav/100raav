@@ -20,17 +20,18 @@
 
 ## Full-Stack Software Engineer — Java · Spring Boot · React · Node.js
 
-Computer &amp; systems engineer who designs and ships production-grade software across the full stack — CLI developer tools, REST &amp; ERP backends, and responsive web applications. Strong foundations in data structures, algorithms, and the software development lifecycle, with full-stack internship experience at The Skybrisk, Labmentix, and Oasis Infobyte, and academic peer-review work indexed on the Web of Science.
-
-<br/>
-
-<div align="center">
-<b>28+ open-source repositories</b> &nbsp;·&nbsp; <b>8 peer reviews</b> — <a href="https://www.webofscience.com/wos/author/record/NOF-2861-2025">Web of Science</a> &nbsp;·&nbsp; <b>B.Tech Computer Science &amp; Engineering</b>
-<br/>
-<b>Java · Spring Boot · React · Node.js</b> &nbsp;·&nbsp; every project built, tested, documented and shipped in the open
 </div>
 
-</div>
+<p align="left">
+<sup>SUMMARY</sup>
+</p>
+<br/>
+
+- **Full-stack engineer** — designs and ships production-grade software end to end: CLI developer tools, REST &amp; ERP backends, and responsive web applications, rooted in strong foundations in data structures, algorithms, and the software development lifecycle.
+- **28+ open-source repositories** — every project built, tested, documented, and released in the open since 2023.
+- **8 peer reviews** — recorded on <a href="https://www.webofscience.com/wos/author/record/NOF-2861-2025">Web of Science</a>.
+- **B.Tech · Computer Science &amp; Engineering** — Noida International University, Greater Noida.
+- **Full-stack internships** — The Skybrisk (Full Stack Java Developer), Labmentix (Full Stack Developer), and Oasis Infobyte (Web Development).
 
 <br/>
 <br/>
