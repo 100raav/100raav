@@ -85,8 +85,7 @@ function calendar() {
   const total = CONTRIB.contributionCalendar.totalContributions
   const level = (n) => (n <= 0 ? 0 : n <= 2 ? 1 : n <= 5 ? 2 : n <= 8 ? 3 : 4)
   const monthOf = (date) => new Date(date + 'T00:00:00Z').toLocaleString('en', { month: 'short', timeZone: 'UTC' })
-  const now = new Date().toLocaleString('en', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'UTC' })
-  const W = 864, H = 172, bx = 64, by = 46, cw = 12, ch = 12, gap = 2.5
+  const W = 1080, H = 216, bx = 66, by = 54, cw = 16, ch = 16, gap = 3
   let cell = ''
   const months = new Map()
   weeks.forEach((w, wi) => {
@@ -94,13 +93,13 @@ function calendar() {
       const x = bx + wi * (cw + gap)
       const y = by + di * (ch + gap)
       const lv = level(d.contributionCount)
-      const op = [0.07, 0.32, 0.58, 0.85, 1][lv]
+      const op = [0.07, 0.3, 0.56, 0.84, 1][lv]
       months.set(d.date.slice(0, 7), { x, y })
-      cell += `<rect x="${x}" y="${y}" width="${cw}" height="${ch}" rx="2.5" fill="#22d3ee" fill-opacity="${op}" opacity="0">
-        <animate attributeName="opacity" values="0;1" dur="0.35s" begin="${(wi * 0.018 + di * 0.004).toFixed(3)}s" fill="freeze"/>
+      cell += `<rect x="${x}" y="${y}" width="${cw}" height="${ch}" rx="4" fill="#22d3ee" fill-opacity="${op}" opacity="0">
+        <animate attributeName="opacity" values="0;1" dur="0.3s" begin="${(wi * 0.012 + di * 0.003).toFixed(3)}s" fill="freeze"/>
       </rect>${lv >= 3 ? `
-      <rect x="${x}" y="${y}" width="${cw}" height="${ch}" rx="2.5" fill="none" stroke="#f472b6" stroke-width="1.2" opacity="0" transform="scale(1)">
-        <animate attributeName="opacity" values="0;0.9;0" dur="2.4s" begin="${(wi * 0.018 + di * 0.004 + 0.4).toFixed(3)}s" repeatCount="indefinite"/>
+      <rect x="${x}" y="${y}" width="${cw}" height="${ch}" rx="4" fill="none" stroke="#f472b6" stroke-width="1.4" opacity="0">
+        <animate attributeName="opacity" values="0;0.9;0" dur="2.2s" begin="${(wi * 0.012 + di * 0.003 + 0.35).toFixed(3)}s" repeatCount="indefinite"/>
       </rect>` : ''}`
     })
   })
@@ -109,32 +108,38 @@ function calendar() {
   for (const [key, { x }] of months) {
     const m = monthOf(key + '-01')
     if (m !== lastShow) {
-      monthLabels.push(`<text x="${x}" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="9.5" fill="#5b6d90">${m}</text>`)
+      monthLabels.push(`<text x="${x}" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">${m}</text>`)
       lastShow = m
     }
   }
-  for (let i = 0; i < 2; i++) {
-    cell += `<text x="${bx - 16}" y="${by + (i === 0 ? 0 : 6) * (ch + gap) + 9}" font-family="'Consolas',monospace" font-size="9" fill="#5b6d90" text-anchor="end">${i === 0 ? 'MON' : 'SUN'}</text>`
-  }
+  const dayLabels = ['MON', 'WED', 'FRI', 'SUN'].map((l, i) => {
+    const yy = by + (i * 2) * (ch + gap) + 12
+    return `<text x="${bx - 24}" y="${yy}" font-family="'Consolas',monospace" font-size="10" fill="#5b6d90" text-anchor="end">${l}</text>`
+  }).join('')
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Real GitHub contribution calendar, last 12 months, ${total} contributions">
   <defs>
     <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset="0.5" stop-color="#a78bfa" stop-opacity="1"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="lg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.10"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
   </defs>
-  <rect width="${W}" height="${H}" rx="16" fill="#0d1428" stroke="#1b2740"/>
-  <rect x="18" y="64" width="828" height="12" fill="url(#sweep)" opacity="0.15"><animate attributeName="x" values="-120;860;-120" dur="9s" repeatCount="indefinite"/></rect>
-  <circle cx="26" cy="24" r="5" fill="#22ee6a"><animate attributeName="fill-opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
-  <text x="40" y="28" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Real GitHub activity</text>
-  <text x="172" y="28" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#5b6d90">last 12 months · auto-refreshed hourly</text>
-  <text x="852" y="28" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="800" fill="#22d3ee">${total}</text>
-  <text x="852" y="40" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">CONTRIBUTIONS</text>
+  <rect width="${W}" height="${H}" rx="18" fill="#0d1428" stroke="#1b2740"/>
+  <rect x="14" y="${by - 6}" width="${W - 28}" height="${7 * (ch + gap) + 6}" rx="10" fill="url(#lg2)"/>
+  <rect x="14" y="${by + 4}" width="${W - 28}" height="12" fill="url(#sweep)" opacity="0.12"><animate attributeName="x" values="-140;${W};-140" dur="9s" repeatCount="indefinite"/></rect>
+  <circle cx="30" cy="26" r="6" fill="#22ee6a"><animate attributeName="fill-opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <text x="46" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#ffffff">Real GitHub contribution calendar</text>
+  <text x="606" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#5b6d90">last 12 months · refreshed hourly by CI</text>
+  <text x="${W - 10}" y="31" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="20" font-weight="800" fill="#22d3ee">${total}</text>
+  <text x="${W - 10}" y="47" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#5b6d90">CONTRIBUTIONS</text>
   ${monthLabels.join('')}
+  ${dayLabels}
   ${cell}
-  <rect x="672" y="148" width="180" height="12" rx="6" fill="none" stroke="#1b2740"/>
-  <text x="672" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">less</text>
-  ${[0.07, 0.32, 0.58, 0.85, 1].map((o, i) => `<rect x="${694 + i * 16}" y="148" width="12" height="12" rx="3" fill="#22d3ee" fill-opacity="${o}"/>`).join('')}
-  <text x="806" y="143" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">more</text>
+  <rect x="836" y="${H - 26}" width="232" height="16" rx="8" fill="none" stroke="#1b2740"/>
+  <text x="836" y="${H - 31}" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#5b6d90">Less</text>
+  ${[0.07, 0.3, 0.56, 0.84, 1].map((o, i) => `<rect x="${872 + i * 20}" y="${H - 26}" width="16" height="16" rx="4" fill="#22d3ee" fill-opacity="${o}"/>`).join('')}
+  <text x="980" y="${H - 31}" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#5b6d90">More</text>
 </svg>`
 }
 

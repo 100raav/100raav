@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Saurav Bichha — Code Engineer & Systems Builder" width="880" />
+<img src="assets/hero.svg" alt="Saurav Bichha — Full-Stack Software Engineer" width="880" />
 
 <br/>
 <br/>
@@ -18,13 +18,17 @@
 
 <sup>PROFILE</sup>
 
-## Software Engineer — Java · Spring Boot · React · Node.js
+## Full-Stack Software Engineer — Java · Spring Boot · React · Node.js
 
-Software engineer working across the full stack. I build complete systems end to end: CLI developer tools, REST and ERP backends, and full web applications — each built, tested and documented to production standard, and shipped in the open (**28 public repositories since 2023**).
+Full-stack software engineer who ships complete systems end to end — CLI developer tools, REST &amp; ERP backends, and full web applications. Every project is built, tested and documented to a production standard and released in the open, and every number on this profile is **live data from the GitHub API, refreshed hourly**.
 
-Beyond the code, I review academic work: **8 peer reviews** recorded on my [Web of Science](https://www.webofscience.com/wos/author/record/NOF-2861-2025) and [ORCID](https://orcid.org/0009-0002-8578-2330) profiles.
+<br/>
 
-B.Tech in **Computer Science & Engineering**, Noida International University, Greater Noida. Every figure on this profile is live data, refreshed hourly.
+<div align="center">
+<b>✦ 28+ open-source repositories</b> &nbsp;·&nbsp; <b>✦ 8 peer reviews</b> — <a href="https://www.webofscience.com/wos/author/record/NOF-2861-2025">Web of Science</a> &nbsp;·&nbsp; <b>✦ B.Tech CSE</b> — Noida International University
+<br/>
+<b>✦ Full stack</b> — Java · Spring Boot · React · Node.js &nbsp;·&nbsp; <b>✦ Real-time profile</b> — no sample data
+</div>
 
 </div>
 
@@ -36,13 +40,13 @@ B.Tech in **Computer Science & Engineering**, Noida International University, Gr
 <br/>
 <br/>
 
-<h3 align="center">Education</h3>
+<h3 align="center">Education &amp; Experience — school to peer review, real records</h3>
 
 <br/>
 
 <div align="center">
 
-<img src="assets/education.svg" alt="Education — Noida International University" width="620" />
+<img src="assets/academics.svg" alt="Education and experience timeline — real records since 2015" width="900" />
 
 </div>
 
@@ -100,7 +104,7 @@ B.Tech in **Computer Science & Engineering**, Noida International University, Gr
 
 <sub>CONTRIBUTION CALENDAR — LAST 12 MONTHS</sub>
 <br/>
-<img src="assets/contributions.svg" alt="Contribution calendar — real data, last 12 months" width="790" />
+<img src="assets/contributions.svg" alt="Contribution calendar — real data, last 12 months" width="1000" />
 
 <br/>
 <br/>
@@ -149,8 +153,8 @@ B.Tech in **Computer Science & Engineering**, Noida International University, Gr
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=mysql" width="36" title="MySQL" /><br/><sub>MySQL</sub></td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/html5.svg" width="36" title="HTML5" /><br/><sub>HTML5</sub></td>
-    <td align="center"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/css3.svg" width="36" title="CSS3" /><br/><sub>CSS3</sub></td>
+    <td align="center"><img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="58" title="HTML5" /><br/><sub>HTML5</sub></td>
+    <td align="center"><img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" width="58" title="CSS3" /><br/><sub>CSS3</sub></td>
     <td align="center"><img src="https://skillicons.dev/icons?i=maven" width="36" title="Maven" /><br/><sub>Maven</sub></td>
   </tr>
   <tr>
