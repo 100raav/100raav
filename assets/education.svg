@@ -23,7 +23,7 @@
       <animate attributeName="opacity" values="0.6;0;0.6" dur="2.6s" begin="0.00s" repeatCount="indefinite"/>
     </circle>
     <text x="118" y="46" font-family="'Segoe UI',Arial,sans-serif" font-size="15.5" font-weight="700" fill="#ffffff" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.15s" fill="freeze"/>Secondary Education · SEE</text>
-    <text x="118" y="64" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#22d3ee" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.20s" fill="freeze"/>Model Multiple College</text>
+    <text x="118" y="64" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#22d3ee" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.20s" fill="freeze"/>Sinha Public School</text>
     <text x="118" y="81" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#5b6d90" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.25s" fill="freeze"/>Grade X · Mathematics &amp; Science</text>
     <g>
     <rect x="872" y="54" width="188" height="28" rx="14" fill="#0b1226" stroke="#1b2740"/>
@@ -44,7 +44,7 @@
       <animate attributeName="opacity" values="0.6;0;0.6" dur="2.6s" begin="0.18s" repeatCount="indefinite"/>
     </circle>
     <text x="118" y="114" font-family="'Segoe UI',Arial,sans-serif" font-size="15.5" font-weight="700" fill="#ffffff" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.33s" fill="freeze"/>Senior Secondary · Science</text>
-    <text x="118" y="132" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#22d3ee" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.38s" fill="freeze"/>Model Multiple College</text>
+    <text x="118" y="132" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#22d3ee" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.38s" fill="freeze"/>Sinha Public School</text>
     <text x="118" y="149" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#5b6d90" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.43s" fill="freeze"/>Grade XII · Physical Sciences</text>
     <g>
     <rect x="872" y="122" width="188" height="28" rx="14" fill="#0b1226" stroke="#1b2740"/>
