@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-label="Saurav Bichha — Full-Stack Platform Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1020"/>
+      <stop offset="0.5" stop-color="#070b16"/>
+      <stop offset="1" stop-color="#0b1026"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0.18" cy="0.25" r="0.7">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowViolet" cx="0.9" cy="0.8" r="0.8">
+      <stop offset="0" stop-color="#a78bfa" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#a78bfa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="0.6 0" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <filter id="glowText" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="960" height="300" fill="url(#bg)"/>
+  <rect width="960" height="300" fill="url(#glowCyan)"/>
+  <rect width="960" height="300" fill="url(#glowViolet)"/>
+
+  <!-- grid -->
+  <g stroke="#1c2742" stroke-width="1" opacity="0.5">
+    <path d="M0 60H960 M0 120H960 M0 180H960 M0 240H960"/>
+    <path d="M160 0V300 M320 0V300 M480 0V300 M640 0V300 M800 0V300"/>
+  </g>
+
+  <!-- scan line -->
+  <rect x="-180" y="0" width="180" height="300" fill="url(#glowCyan)">
+    <animate attributeName="x" from="-180" to="960" dur="5s" begin="-1.2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- particles -->
+  <g fill="#67e8f9">
+    <circle cx="120" cy="50" r="2"><animate attributeName="cy" from="60" to="20" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="120" r="1.6"><animate attributeName="cy" from="130" to="70" dur="5.5s" begin="-2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;1;0.2" dur="5.5s" repeatCount="indefinite"/></circle>
+    <circle cx="820" cy="90" r="2.2"><animate attributeName="cy" from="100" to="30" dur="4.7s" begin="-3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;1;0.2" dur="4.7s" repeatCount="indefinite"/></circle>
+    <circle cx="720" cy="230" r="1.8"><animate attributeName="cy" from="240" to="180" dur="6s" begin="-1s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;1;0.2" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="240" r="1.4"><animate attributeName="cy" from="250" to="200" dur="5s" begin="-2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.2;1;0.2" dur="5s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- orbit ring -->
+  <g transform="translate(180 150)">
+    <circle r="62" fill="none" stroke="url(#ringGrad)" stroke-width="2" stroke-dasharray="10 14" opacity="0.9">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="50" fill="none" stroke="#233150" stroke-width="1.5"/>
+    <circle r="40" fill="#0d1428"/>
+    <circle r="40" fill="url(#ringGrad)" opacity="0.12">
+      <animate attributeName="opacity" values="0.12;0.35;0.12" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="40" fill="none" stroke="#22d3ee" stroke-width="1.2" opacity="0.85">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-dasharray" values="30 220;120 130;30 220" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <g fill="none" stroke="#a78bfa" stroke-width="1.4">
+      <ellipse rx="74" ry="18" opacity="0.8">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="16s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="74" ry="18" opacity="0.45">
+        <animateTransform attributeName="transform" type="rotate" from="-360" to="0" dur="16s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    <text x="0" y="7" text-anchor="middle" font-family="'Segoe UI', 'SF Pro Display', Arial, sans-serif" font-size="26" font-weight="800" fill="#ffffff" filter="url(#glowText)">SB</text>
+  </g>
+
+  <!-- identity -->
+  <text x="278" y="120" font-family="'Segoe UI', 'SF Pro Display', Arial, sans-serif" font-size="19" letter-spacing="6" fill="#67e8f9" opacity="0.95">
+    <tspan>SAURAV BICHHA</tspan>
+    <animate attributeName="letter-spacing" values="6;9;6" dur="5s" repeatCount="indefinite"/>
+  </text>
+  <text x="278" y="172" font-family="'Segoe UI', 'SF Pro Display', Arial, sans-serif" font-size="52" font-weight="800" fill="url(#titleGrad)" filter="url(#glowText)">
+    Code Engineer &amp; Systems Builder
+  </text>
+  <text x="278" y="212" font-family="'Verdana', 'Segoe UI', Arial, sans-serif" font-size="15" letter-spacing="3" fill="#8ea3c9">
+    FULL-STACK  ·  JAVA  ·  SPRING  ·  REACT  ·  CLOUD-GRADE SYSTEMS
+  </text>
+
+  <!-- accent line under -->
+  <rect x="276" y="230" width="400" height="3" rx="1.5" fill="url(#ringGrad)">
+    <animate attributeName="width" values="120;400;120" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <circle cx="276" cy="231.5" r="3" fill="#f472b6">
+    <animate attributeName="cx" values="276;676;276" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- right stat badges -->
+  <g font-family="'Segoe UI', Arial, sans-serif">
+    <g>
+      <rect x="790" y="118" width="150" height="40" rx="8" fill="#0d1428" stroke="#233150"/>
+      <text x="808" y="134" font-size="11" fill="#67e8f9" letter-spacing="1">BUILDING</text>
+      <text x="808" y="151" font-size="12" font-weight="700" fill="#ffffff">BLYVERO</text>
+      <animate attributeName="opacity" values="1;0.55;1" dur="4s" repeatCount="indefinite"/>
+    </g>
+    <g>
+      <rect x="790" y="168" width="150" height="40" rx="8" fill="#0d1428" stroke="#233150">
+        <animate attributeName="stroke-opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <text x="808" y="184" font-size="11" fill="#a78bfa" letter-spacing="1">VERIFIED</text>
+      <text x="808" y="201" font-size="12" font-weight="700" fill="#ffffff">89/89 SECURITY MATRIX</text>
+    </g>
+    <g>
+      <rect x="790" y="218" width="150" height="40" rx="8" fill="#0d1428" stroke="#233150"/>
+      <text x="808" y="234" font-size="11" fill="#f472b6" letter-spacing="1">SHIPPED</text>
+      <text x="808" y="251" font-size="12" font-weight="700" fill="#ffffff">168+ AUTOMATED TESTS</text>
+    </g>
+  </g>
+</svg>
