@@ -120,12 +120,6 @@ Computer &amp; systems engineer who designs and ships production-grade software 
 <br/>
 <br/>
 
-<img src="assets/contributions.svg" alt="Contribution calendar — real data, last 12 months" width="1000" />
-
-<br/>
-<br/>
-<br/>
-
 <sub>ENGINEERING JOURNEY — EVERY PUBLIC REPO BY YEAR</sub>
 <br/>
 <img src="assets/journey.svg" alt="Engineering journey — every public repo by year" width="748" />
@@ -169,8 +163,8 @@ Computer &amp; systems engineer who designs and ships production-grade software 
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=mysql" width="36" title="MySQL" /><br/><sub>MySQL</sub></td>
-    <td align="center"><img src="https://img.shields.io/badge/-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="40" title="HTML5" /></td>
-    <td align="center"><img src="https://img.shields.io/badge/-1572B6?style=for-the-badge&logo=css3&logoColor=white" width="40" title="CSS3" /></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="36" title="HTML5" /><br/><sub>HTML5</sub></td>
+    <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="36" title="CSS3" /><br/><sub>CSS3</sub></td>
     <td align="center"><img src="https://skillicons.dev/icons?i=maven" width="36" title="Maven" /><br/><sub>Maven</sub></td>
   </tr>
   <tr>

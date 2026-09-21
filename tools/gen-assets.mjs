@@ -2,7 +2,6 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 
 const DATA = process.env.DATA_DIR || '/tmp'
 const REPOS = JSON.parse(readFileSync(`${DATA}/repos.json`, 'utf8'))
-const CONTRIB = JSON.parse(readFileSync(`${DATA}/gh_contrib.json`, 'utf8')).data.user.contributionsCollection
 
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 
@@ -79,70 +78,6 @@ function card(c) {
 </svg>`
 }
 
-// ---------- CONTRIBUTION CALENDAR (real data, animated) ----------
-function calendar() {
-  const weeks = CONTRIB.contributionCalendar.weeks
-  const total = CONTRIB.contributionCalendar.totalContributions
-  const level = (n) => (n <= 0 ? 0 : n <= 2 ? 1 : n <= 5 ? 2 : n <= 8 ? 3 : 4)
-  const monthOf = (date) => new Date(date + 'T00:00:00Z').toLocaleString('en', { month: 'short', timeZone: 'UTC' })
-  const W = 1080, H = 216, bx = 66, by = 54, cw = 16, ch = 16, gap = 3
-  let cell = ''
-  const months = new Map()
-  weeks.forEach((w, wi) => {
-    w.contributionDays.forEach((d, di) => {
-      const x = bx + wi * (cw + gap)
-      const y = by + di * (ch + gap)
-      const lv = level(d.contributionCount)
-      const op = [0.07, 0.3, 0.56, 0.84, 1][lv]
-      months.set(d.date.slice(0, 7), { x, y })
-      cell += `<rect x="${x}" y="${y}" width="${cw}" height="${ch}" rx="4" fill="#22d3ee" fill-opacity="${op}" opacity="0">
-        <animate attributeName="opacity" values="0;1" dur="0.3s" begin="${(wi * 0.012 + di * 0.003).toFixed(3)}s" fill="freeze"/>
-      </rect>${lv >= 3 ? `
-      <rect x="${x}" y="${y}" width="${cw}" height="${ch}" rx="4" fill="none" stroke="#f472b6" stroke-width="1.4" opacity="0">
-        <animate attributeName="opacity" values="0;0.9;0" dur="2.2s" begin="${(wi * 0.012 + di * 0.003 + 0.35).toFixed(3)}s" repeatCount="indefinite"/>
-      </rect>` : ''}`
-    })
-  })
-  const monthLabels = []
-  let lastShow = ''
-  for (const [key, { x }] of months) {
-    const m = monthOf(key + '-01')
-    if (m !== lastShow) {
-      monthLabels.push(`<text x="${x}" y="36" font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#7c8db0">${m}</text>`)
-      lastShow = m
-    }
-  }
-  const dayLabels = ['MON', 'WED', 'FRI', 'SUN'].map((l, i) => {
-    const yy = by + (i * 2) * (ch + gap) + 12
-    return `<text x="${bx - 24}" y="${yy}" font-family="'Consolas',monospace" font-size="10" fill="#5b6d90" text-anchor="end">${l}</text>`
-  }).join('')
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Real GitHub contribution calendar, last 12 months, ${total} contributions">
-  <defs>
-    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset="0.5" stop-color="#a78bfa" stop-opacity="1"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="lg2" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.10"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <rect width="${W}" height="${H}" rx="18" fill="#0d1428" stroke="#1b2740"/>
-  <rect x="14" y="${by - 6}" width="${W - 28}" height="${7 * (ch + gap) + 6}" rx="10" fill="url(#lg2)"/>
-  <rect x="14" y="${by + 4}" width="${W - 28}" height="12" fill="url(#sweep)" opacity="0.12"><animate attributeName="x" values="-140;${W};-140" dur="9s" repeatCount="indefinite"/></rect>
-  <circle cx="30" cy="26" r="6" fill="#22ee6a"><animate attributeName="fill-opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
-  <text x="46" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#ffffff">Real GitHub contribution calendar</text>
-  <text x="606" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#5b6d90">last 12 months · live from GitHub</text>
-  <text x="${W - 10}" y="31" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="20" font-weight="800" fill="#22d3ee">${total}</text>
-  <text x="${W - 10}" y="47" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#5b6d90">CONTRIBUTIONS</text>
-  ${monthLabels.join('')}
-  ${dayLabels}
-  ${cell}
-  <rect x="836" y="${H - 26}" width="232" height="16" rx="8" fill="none" stroke="#1b2740"/>
-  <text x="836" y="${H - 31}" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#5b6d90">Less</text>
-  ${[0.07, 0.3, 0.56, 0.84, 1].map((o, i) => `<rect x="${872 + i * 20}" y="${H - 26}" width="16" height="16" rx="4" fill="#22d3ee" fill-opacity="${o}"/>`).join('')}
-  <text x="980" y="${H - 31}" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#5b6d90">More</text>
-</svg>`
-}
-
 // ---------- JOURNEY TIMELINE ----------
 function journey() {
   const byYear = {}
@@ -181,6 +116,5 @@ function journey() {
 
 mkdirSync('assets/projects', { recursive: true })
 for (const c of CARDS) writeFileSync(`assets/projects/${c.file}`, card(c))
-writeFileSync('assets/contributions.svg', calendar())
 writeFileSync('assets/journey.svg', journey())
-console.log('cards:', CARDS.length, '| calendar weeks:', CONTRIB.contributionCalendar.weeks.length)
+console.log('cards:', CARDS.length)
