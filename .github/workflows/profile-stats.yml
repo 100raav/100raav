@@ -43,7 +43,8 @@ jobs:
           DATA_DIR=/tmp node tools/gen-assets.mjs
           DATA_DIR=/tmp OUT_DIR=assets node tools/gen-stats.mjs
           DATA_DIR=/tmp node tools/gen-langs.mjs > assets/languages.svg
-          node tools/gen-academics.mjs
+          node tools/gen-education.mjs
+          node tools/gen-experience.mjs
           echo "assets regenerated"
 
       - name: Commit updated visuals

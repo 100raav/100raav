@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="368" viewBox="0 0 1080 368" role="img" aria-label="Saurav Bichha professional experience — internships and peer review, real records">
+  <defs>
+    <linearGradient id="spineExp" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f472b6"/><stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="368" rx="18" fill="#0d1428" stroke="#1b2740"/>
+  <circle cx="30" cy="26" r="6" fill="#22ee6a"><animate attributeName="fill-opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <text x="46" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#ffffff">Experience</text>
+  <text x="240" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#5b6d90">internships · peer review — real records</text>
+  <text x="1068" y="30" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#5b6d90">2023 – 2026</text>
+  <rect x="94.5" y="34" width="3" height="312" rx="1.5" fill="url(#spineExp)"/>
+  <circle cx="96" cy="34" r="4" fill="#22ee6a"><animate attributeName="cy" values="34;346;34" dur="7s" repeatCount="indefinite"/></circle>
+  <g>
+    <rect x="26" y="54" width="66" height="38" rx="10" fill="#0b1226" stroke="#1b2740"/>
+    <text x="59" y="71" text-anchor="middle" font-family="'Consolas',monospace" font-size="9.5" font-weight="700" fill="#f472b6">Jul 2023</text>
+    <text x="59" y="85" text-anchor="middle" font-family="'Consolas',monospace" font-size="9.5" fill="#5b6d90">Aug 2023</text>
+    <circle cx="96" cy="73" r="7" fill="#0d1428" stroke="#f472b6" stroke-width="2.5" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.00s" fill="freeze"/>
+    </circle>
+    <circle cx="96" cy="73" r="7" fill="none" stroke="#f472b6" stroke-width="1" opacity="0">
+      <animate attributeName="r" values="7;16;7" dur="2.6s" begin="0.00s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.6s" begin="0.00s" repeatCount="indefinite"/>
+    </circle>
+    <text x="118" y="46" font-family="'Segoe UI',Arial,sans-serif" font-size="15.5" font-weight="700" fill="#ffffff" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.15s" fill="freeze"/>Web Development Intern</text>
+    <text x="118" y="64" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#f472b6" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.20s" fill="freeze"/>Oasis Infobyte</text>
+    <text x="118" y="83" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#aebfd9" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.25s" fill="freeze"/>Web development &amp; designing · frontend &amp; responsive principles</text>
+    <text x="118" y="99" font-family="'Segoe UI',Arial,sans-serif" font-size="10.5" fill="#5b6d90" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.30s" fill="freeze"/>Delhi, India</text>
+    <g>
+    <rect x="884" y="59" width="176" height="28" rx="14" fill="#0b1226" stroke="#1b2740"/>
+    <text x="972" y="77" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#f472b6">2 MOS</text>
+  </g>
+  </g>
+  <g>
+    <rect x="26" y="132" width="66" height="38" rx="10" fill="#0b1226" stroke="#1b2740"/>
+    <text x="59" y="149" text-anchor="middle" font-family="'Consolas',monospace" font-size="9.5" font-weight="700" fill="#f472b6">Jul 2025</text>
+    <text x="59" y="163" text-anchor="middle" font-family="'Consolas',monospace" font-size="9.5" fill="#5b6d90">Jan 2026</text>
+    <circle cx="96" cy="151" r="7" fill="#0d1428" stroke="#f472b6" stroke-width="2.5" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.18s" fill="freeze"/>
+    </circle>
+    <circle cx="96" cy="151" r="7" fill="none" stroke="#f472b6" stroke-width="1" opacity="0">
+      <animate attributeName="r" values="7;16;7" dur="2.6s" begin="0.18s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.6s" begin="0.18s" repeatCount="indefinite"/>
+    </circle>
+    <text x="118" y="124" font-family="'Segoe UI',Arial,sans-serif" font-size="15.5" font-weight="700" fill="#ffffff" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.33s" fill="freeze"/>Full Stack Developer</text>
+    <text x="118" y="142" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#f472b6" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.38s" fill="freeze"/>Labmentix · Bengaluru · Remote</text>
+    <text x="118" y="161" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#aebfd9" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.43s" fill="freeze"/>Java · Spring · HTML/CSS/JS · database operations &amp; CRUD</text>
+    <text x="118" y="177" font-family="'Segoe UI',Arial,sans-serif" font-size="10.5" fill="#5b6d90" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.48s" fill="freeze"/>End-to-end web apps in a structured team workflow</text>
+    <g>
+    <rect x="884" y="137" width="176" height="28" rx="14" fill="#0b1226" stroke="#1b2740"/>
+    <text x="972" y="155" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#f472b6">7 MOS</text>
+  </g>
+  </g>
+  <g>
+    <rect x="26" y="210" width="66" height="38" rx="10" fill="#0b1226" stroke="#1b2740"/>
+    <text x="59" y="227" text-anchor="middle" font-family="'Consolas',monospace" font-size="9.5" font-weight="700" fill="#f472b6">Jan 2026</text>
+    <text x="59" y="241" text-anchor="middle" font-family="'Consolas',monospace" font-size="9.5" fill="#5b6d90">Jul 2026</text>
+    <circle cx="96" cy="229" r="7" fill="#0d1428" stroke="#f472b6" stroke-width="2.5" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.36s" fill="freeze"/>
+    </circle>
+    <circle cx="96" cy="229" r="7" fill="none" stroke="#f472b6" stroke-width="1" opacity="0">
+      <animate attributeName="r" values="7;16;7" dur="2.6s" begin="0.36s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.6s" begin="0.36s" repeatCount="indefinite"/>
+    </circle>
+    <text x="118" y="202" font-family="'Segoe UI',Arial,sans-serif" font-size="15.5" font-weight="700" fill="#ffffff" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.51s" fill="freeze"/>Full Stack Java Developer Intern</text>
+    <text x="118" y="220" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#f472b6" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.56s" fill="freeze"/>The Skybrisk · Pune · Remote</text>
+    <text x="118" y="239" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#aebfd9" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.61s" fill="freeze"/>Full-stack program · hands-on project training under mentorship</text>
+    <text x="118" y="255" font-family="'Segoe UI',Arial,sans-serif" font-size="10.5" fill="#5b6d90" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.66s" fill="freeze"/>SDLC · industry best practices · performance reviews</text>
+    <g>
+    <rect x="884" y="215" width="176" height="28" rx="14" fill="#0b1226" stroke="#1b2740"/>
+    <text x="972" y="233" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#f472b6">7 MOS</text>
+  </g>
+  </g>
+  <g>
+    <rect x="26" y="288" width="66" height="38" rx="10" fill="#0b1226" stroke="#1b2740"/>
+    <text x="59" y="305" text-anchor="middle" font-family="'Consolas',monospace" font-size="9.5" font-weight="700" fill="#f472b6">2026</text>
+    <text x="59" y="319" text-anchor="middle" font-family="'Consolas',monospace" font-size="9.5" fill="#5b6d90"></text>
+    <circle cx="96" cy="307" r="7" fill="#0d1428" stroke="#f472b6" stroke-width="2.5" opacity="0">
+      <animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.54s" fill="freeze"/>
+    </circle>
+    <circle cx="96" cy="307" r="7" fill="none" stroke="#f472b6" stroke-width="1" opacity="0">
+      <animate attributeName="r" values="7;16;7" dur="2.6s" begin="0.54s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="2.6s" begin="0.54s" repeatCount="indefinite"/>
+    </circle>
+    <text x="118" y="280" font-family="'Segoe UI',Arial,sans-serif" font-size="15.5" font-weight="700" fill="#ffffff" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.69s" fill="freeze"/>Peer Reviewer</text>
+    <text x="118" y="298" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="600" fill="#f472b6" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.74s" fill="freeze"/>Web of Science · Clarivate</text>
+    <text x="118" y="317" font-family="'Segoe UI',Arial,sans-serif" font-size="11.5" fill="#aebfd9" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.79s" fill="freeze"/>Journals indexed on Web of Science</text>
+    <text x="118" y="333" font-family="'Segoe UI',Arial,sans-serif" font-size="10.5" fill="#5b6d90" opacity="0"><animate attributeName="opacity" values="0;1" dur="0.4s" begin="0.84s" fill="freeze"/>Academic peer review contributions</text>
+    <g>
+    <rect x="884" y="293" width="176" height="28" rx="14" fill="#0b1226" stroke="#1b2740"/>
+    <text x="972" y="311" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" font-weight="700" fill="#f472b6">8 REVIEWS</text>
+  </g>
+  </g>
+</svg>

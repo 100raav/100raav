@@ -130,7 +130,7 @@ function calendar() {
   <rect x="14" y="${by + 4}" width="${W - 28}" height="12" fill="url(#sweep)" opacity="0.12"><animate attributeName="x" values="-140;${W};-140" dur="9s" repeatCount="indefinite"/></rect>
   <circle cx="30" cy="26" r="6" fill="#22ee6a"><animate attributeName="fill-opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
   <text x="46" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="17" font-weight="700" fill="#ffffff">Real GitHub contribution calendar</text>
-  <text x="606" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#5b6d90">last 12 months · refreshed hourly by CI</text>
+  <text x="606" y="30" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#5b6d90">last 12 months · live from GitHub</text>
   <text x="${W - 10}" y="31" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="20" font-weight="800" fill="#22d3ee">${total}</text>
   <text x="${W - 10}" y="47" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="10" fill="#5b6d90">CONTRIBUTIONS</text>
   ${monthLabels.join('')}

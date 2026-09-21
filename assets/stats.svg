@@ -2,7 +2,7 @@
   <rect width="864" height="200" rx="16" fill="#0d1428" stroke="#1b2740"/>
   <circle cx="26" cy="22" r="5" fill="#22ee6a"><animate attributeName="fill-opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
   <text x="40" y="26" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Live analytics — real numbers from the GitHub API</text>
-  <text x="848" y="26" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="9.5" fill="#5b6d90">★ 1 star total · refreshed hourly by CI</text>
+  <text x="848" y="26" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="9.5" fill="#5b6d90">★ 1 star total · live from GitHub</text>
   <g>
     <rect x="24" y="48" width="264" height="70" rx="12" fill="#0d1428" stroke="#1b2740"/>
     <rect x="24" y="48" width="264" height="2" rx="1" fill="#22d3ee" opacity="0.9"><animate attributeName="width" values="40;264;40" dur="5s" begin="0s" repeatCount="indefinite"/></rect>
@@ -25,7 +25,7 @@
     </g>
     <text x="356" y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff">87<tspan fill="#67e8f9" font-size="13" font-weight="700"> </tspan></text>
     <text x="356" y="91" font-family="'Segoe UI',Arial,sans-serif" font-size="10" letter-spacing="1" fill="#8ea3c9">12-MONTH CONTRIBUTIONS</text>
-    <text x="356" y="105" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">refreshed every hour</text>
+    <text x="356" y="105" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">measured live from GitHub</text>
   </g>
 <g>
     <rect x="576" y="48" width="264" height="70" rx="12" fill="#0d1428" stroke="#1b2740"/>
@@ -37,7 +37,7 @@
     </g>
     <text x="632" y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff">67<tspan fill="#67e8f9" font-size="13" font-weight="700"> </tspan></text>
     <text x="632" y="91" font-family="'Segoe UI',Arial,sans-serif" font-size="10" letter-spacing="1" fill="#8ea3c9">COMMITS / LAST 12 MO</text>
-    <text x="632" y="105" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">measured from live API</text>
+    <text x="632" y="105" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">measured live from GitHub</text>
   </g>
 <g>
     <rect x="24" y="130" width="264" height="70" rx="12" fill="#0d1428" stroke="#1b2740"/>

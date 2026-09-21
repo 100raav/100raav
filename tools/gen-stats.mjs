@@ -18,8 +18,8 @@ const years = ((Date.now() - Date.parse(USER.created_at)) / (365.25 * 86400000))
 
 const METRICS = [
   { glyph: '⌘', value: `${publicRepos}`, suffix: '+', label: 'PUBLIC REPOSITORIES', hint: 'all shipped in the open' },
-  { glyph: '📈', value: `${totalContrib}`, suffix: '', label: '12-MONTH CONTRIBUTIONS', hint: 'refreshed every hour' },
-  { glyph: '🖥', value: `${totalCommits}`, suffix: '', label: 'COMMITS / LAST 12 MO', hint: 'measured from live API' },
+  { glyph: '📈', value: `${totalContrib}`, suffix: '', label: '12-MONTH CONTRIBUTIONS', hint: 'measured live from GitHub' },
+  { glyph: '🖥', value: `${totalCommits}`, suffix: '', label: 'COMMITS / LAST 12 MO', hint: 'measured live from GitHub' },
   { glyph: '📅', value: `${activeDays}`, suffix: '', label: 'ACTIVE DAYS / 12 MO', hint: 'days with commits counted' },
   { glyph: '🔥', value: `${best}`, suffix: '-DAY', label: 'LONGEST STREAK', hint: 'consecutive-building days' },
   { glyph: '🚀', value: `${years}`, suffix: 'YRS', label: 'BUILDING IN THE OPEN', hint: 'since July 2023' },
@@ -51,7 +51,7 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" 
   <rect width="${W}" height="${H}" rx="16" fill="#0d1428" stroke="#1b2740"/>
   <circle cx="26" cy="22" r="5" fill="#22ee6a"><animate attributeName="fill-opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
   <text x="40" y="26" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Live analytics — real numbers from the GitHub API</text>
-  <text x="848" y="26" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="9.5" fill="#5b6d90">★ ${totalStars} star total · refreshed hourly by CI</text>
+  <text x="848" y="26" text-anchor="end" font-family="'Segoe UI',Arial,sans-serif" font-size="9.5" fill="#5b6d90">★ ${totalStars} star total · live from GitHub</text>
   ${cells}
 </svg>`
 writeFileSync(`${process.env.OUT_DIR || 'assets'}/stats.svg`, svg)

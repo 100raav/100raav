@@ -20,14 +20,14 @@
 
 ## Full-Stack Software Engineer — Java · Spring Boot · React · Node.js
 
-Full-stack software engineer who ships complete systems end to end — CLI developer tools, REST &amp; ERP backends, and full web applications. Every project is built, tested and documented to a production standard and released in the open, and every number on this profile is **live data from the GitHub API, refreshed hourly**.
+Computer &amp; systems engineer who designs and ships production-grade software across the full stack — CLI developer tools, REST &amp; ERP backends, and responsive web applications. Strong foundations in data structures, algorithms, and the software development lifecycle, with full-stack internship experience at The Skybrisk, Labmentix, and Oasis Infobyte, and academic peer-review work indexed on the Web of Science.
 
 <br/>
 
 <div align="center">
-<b>✦ 28+ open-source repositories</b> &nbsp;·&nbsp; <b>✦ 8 peer reviews</b> — <a href="https://www.webofscience.com/wos/author/record/NOF-2861-2025">Web of Science</a> &nbsp;·&nbsp; <b>✦ B.Tech CSE</b> — Noida International University
+<b>28+ open-source repositories</b> &nbsp;·&nbsp; <b>8 peer reviews</b> — <a href="https://www.webofscience.com/wos/author/record/NOF-2861-2025">Web of Science</a> &nbsp;·&nbsp; <b>B.Tech Computer Science &amp; Engineering</b>
 <br/>
-<b>✦ Full stack</b> — Java · Spring Boot · React · Node.js &nbsp;·&nbsp; <b>✦ Real-time profile</b> — no sample data
+<b>Java · Spring Boot · React · Node.js</b> &nbsp;·&nbsp; every project built, tested, documented and shipped in the open
 </div>
 
 </div>
@@ -40,13 +40,31 @@ Full-stack software engineer who ships complete systems end to end — CLI devel
 <br/>
 <br/>
 
-<h3 align="center">Education &amp; Experience — school to peer review, real records</h3>
+<h3 align="center">Education</h3>
 
 <br/>
 
 <div align="center">
 
-<img src="assets/academics.svg" alt="Education and experience timeline — real records since 2015" width="900" />
+<img src="assets/education.svg" alt="Education — secondary school, senior secondary, and B.Tech, real records" width="900" />
+
+</div>
+
+<br/>
+<br/>
+
+---
+
+<br/>
+<br/>
+
+<h3 align="center">Experience</h3>
+
+<br/>
+
+<div align="center">
+
+<img src="assets/experience.svg" alt="Experience — Oasis Infobyte, Labmentix, The Skybrisk, and Web of Science peer review" width="900" />
 
 </div>
 
@@ -88,7 +106,7 @@ Full-stack software engineer who ships complete systems end to end — CLI devel
 <br/>
 <br/>
 
-<h3 align="center">Live GitHub activity — real data, refreshed hourly by CI</h3>
+<h3 align="center">Live GitHub activity</h3>
 
 <br/>
 
@@ -102,8 +120,6 @@ Full-stack software engineer who ships complete systems end to end — CLI devel
 <br/>
 <br/>
 
-<sub>CONTRIBUTION CALENDAR — LAST 12 MONTHS</sub>
-<br/>
 <img src="assets/contributions.svg" alt="Contribution calendar — real data, last 12 months" width="1000" />
 
 <br/>
@@ -153,8 +169,8 @@ Full-stack software engineer who ships complete systems end to end — CLI devel
   </tr>
   <tr>
     <td align="center"><img src="https://skillicons.dev/icons?i=mysql" width="36" title="MySQL" /><br/><sub>MySQL</sub></td>
-    <td align="center"><img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="58" title="HTML5" /><br/><sub>HTML5</sub></td>
-    <td align="center"><img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" width="58" title="CSS3" /><br/><sub>CSS3</sub></td>
+    <td align="center"><img src="https://img.shields.io/badge/-E34F26?style=for-the-badge&logo=html5&logoColor=white" width="40" title="HTML5" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/-1572B6?style=for-the-badge&logo=css3&logoColor=white" width="40" title="CSS3" /></td>
     <td align="center"><img src="https://skillicons.dev/icons?i=maven" width="36" title="Maven" /><br/><sub>Maven</sub></td>
   </tr>
   <tr>
@@ -164,10 +180,6 @@ Full-stack software engineer who ships complete systems end to end — CLI devel
     <td align="center"><img src="https://skillicons.dev/icons?i=vercel" width="36" title="Vercel" /><br/><sub>Vercel</sub></td>
   </tr>
 </table>
-
-<br/>
-
-<sub>Contribution calendar, language split, streak and totals above are computed from the live GitHub API — no fabricated numbers, no sample data.</sub>
 
 </div>
 
