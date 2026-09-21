@@ -11,6 +11,7 @@
   <a href="https://leetcode.com/u/100raav73/"><img src="https://img.shields.io/badge/LeetCode-%23FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
   <a href="mailto:100raav73@gmail.com"><img src="https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/100raav"><img src="https://img.shields.io/badge/GitHub-100raav-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://orcid.org/0009-0002-8578-2330"><img src="https://img.shields.io/badge/ORCID-0009--0002--8578--2330-%23A6CE39.svg?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
 </p>
 
 ---
@@ -131,6 +132,7 @@ You can reach me here — always happy to walk through the architecture, the tes
   <a href="https://leetcode.com/u/100raav73/"><img src="https://img.shields.io/badge/LeetCode-%23FFA116.svg?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
   <a href="mailto:100raav73@gmail.com"><img src="https://img.shields.io/badge/Email-%23EA4335.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/100raav"><img src="https://img.shields.io/badge/GitHub-100raav-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://orcid.org/0009-0002-8578-2330"><img src="https://img.shields.io/badge/ORCID-0009--0002--8578--2330-%23A6CE39.svg?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID" /></a>
 </p>
 
 <p align="center">
