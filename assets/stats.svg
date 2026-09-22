@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="864" height="200" viewBox="0 0 864 200" role="img" aria-label="Live GitHub analytics — 29 public repositories, 121 contributions last 12 months">
+<svg xmlns="http://www.w3.org/2000/svg" width="864" height="200" viewBox="0 0 864 200" role="img" aria-label="Live GitHub analytics — 29 public repositories, 122 contributions last 12 months">
   <rect width="864" height="200" rx="16" fill="#0d1428" stroke="#1b2740"/>
   <circle cx="26" cy="22" r="5" fill="#22ee6a"><animate attributeName="fill-opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/></circle>
   <text x="40" y="26" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="700" fill="#ffffff">Live analytics — real numbers from the GitHub API</text>
@@ -23,7 +23,7 @@
       <text x="0" y="6" text-anchor="middle" font-size="14">📈</text>
       <circle r="20" fill="#22d3ee" opacity="0.16"><animate attributeName="r" values="16;22;16" dur="2.6s" begin="0.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.6s" begin="0.3s" repeatCount="indefinite"/></circle>
     </g>
-    <text x="356" y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff">121<tspan fill="#67e8f9" font-size="13" font-weight="700"> </tspan></text>
+    <text x="356" y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff">122<tspan fill="#67e8f9" font-size="13" font-weight="700"> </tspan></text>
     <text x="356" y="91" font-family="'Segoe UI',Arial,sans-serif" font-size="10" letter-spacing="1" fill="#8ea3c9">12-MONTH CONTRIBUTIONS</text>
     <text x="356" y="105" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">measured live from GitHub</text>
   </g>
@@ -35,7 +35,7 @@
       <text x="0" y="6" text-anchor="middle" font-size="14">🖥</text>
       <circle r="20" fill="#22d3ee" opacity="0.16"><animate attributeName="r" values="16;22;16" dur="2.6s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.6s" begin="0.6s" repeatCount="indefinite"/></circle>
     </g>
-    <text x="632" y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff">100<tspan fill="#67e8f9" font-size="13" font-weight="700"> </tspan></text>
+    <text x="632" y="74" font-family="'Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#ffffff">101<tspan fill="#67e8f9" font-size="13" font-weight="700"> </tspan></text>
     <text x="632" y="91" font-family="'Segoe UI',Arial,sans-serif" font-size="10" letter-spacing="1" fill="#8ea3c9">COMMITS / LAST 12 MO</text>
     <text x="632" y="105" font-family="'Segoe UI',Arial,sans-serif" font-size="8.5" fill="#5b6d90">measured live from GitHub</text>
   </g>
